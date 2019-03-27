@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculadoraActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="90dp"
+            android:text="Calculadora"
+            android:textSize="30dp"
+            />
+
+        <EditText
+            android:id="@+id/mostrar"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="9dp"
+            android:hint="Resultados"
+            android:textSize="23dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            >
+
+            <Button
+                android:id="@+id/Botonuno"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="23dp"
+                android:text="@string/uno"
+                />
+
+            <Button
+                android:id="@+id/Botondos"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="23dp"
+                android:text="@string/dos"
+                />
+
+            <Button
+                android:id="@+id/Botontres"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="23dp"
+                android:text="@string/tres"
+                />
+
+
+            <Button
+                android:id="@+id/Botondivision"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="23dp"
+                android:text="@string/division"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="1dp"
+            >
+
+            <Button
+                android:id="@+id/Botocuatro"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="23dp"
+                android:text="@string/cuatro"
+                />
+
+            <Button
+                android:id="@+id/Botoncinco"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="23dp"
+                android:text="@string/cinco"
+                />
+
+            <Button
+                android:id="@+id/Botonseis"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="23dp"
+                android:text="@string/seis"
+                />
+
+
+            <Button
+                android:id="@+id/Botonmultiplicacion"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="23dp"
+                android:text="@string/multiplicacion"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="2dp"
+            >
+
+            <Button
+                android:id="@+id/Botosiete"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="23dp"
+                android:text="@string/siete"
+                />
+
+            <Button
+                android:id="@+id/Botonocho"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="23dp"
+                android:text="@string/ocho"
+                />
+
+            <Button
+                android:id="@+id/Botonnueve"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="23dp"
+                android:text="@string/nueve"
+                />
+
+
+            <Button
+                android:id="@+id/Botonresta"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="23dp"
+                android:text="@string/resta"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="1dp"
+            >
+
+            <Button
+                android:id="@+id/Botopunto"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="23dp"
+                android:text="@string/punto"
+                />
+
+            <Button
+                android:id="@+id/Botocero"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="23dp"
+                android:text="@string/cero"
+                />
+
+            <Button
+                android:id="@+id/Botonigual"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="23dp"
+                android:text="@string/igual"
+                />
+
+
+            <Button
+                android:id="@+id/Botonmas"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="23dp"
+                android:text="@string/mas"
+                />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Limpiar"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="23dp"
+            android:text="@string/limpiar"
+            android:onClick="limpiar"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
